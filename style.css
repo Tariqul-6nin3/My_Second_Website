@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn-primary {
+  font-size: 23px;
+  color: white;
+  background-color: #ff5959;
+  padding: 26px 34px;
+  border: 0;
+  border-radius: 8px;
+}
+.header-item {
+  background-image: url("./donate-today/images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 250px;
+  text-align: center;
+  margin-bottom: 25px;
+  background-blend-mode: overlay;
+}
+.header-title {
+  font-size: 80px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.header-description {
+  font-size: 29px;
+  color: hwb(0 100% 0%);
+  margin-bottom: 15px;
+}
+/* Donate Section */
+.donate {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 75px;
+  text-align: center;
+}
+.donate-title {
+  font-size: 35px;
+  font-weight: 600px;
+  margin-bottom: 30px;
+}
+.donate-description {
+  font-size: 22px;
+  color: #261d1d;
+  margin-bottom: 30px;
+}
+.donate-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.donate-amount {
+  padding: 60px 47px;
+  background-color: #e9ecef;
+  margin-top: 32px;
+}
+.donate-money {
+  font-size: 41px;
+  color: #5b5853;
+}
+#selected-taka {
+  color: rgb(180, 45, 45);
+  border: 1px solid rgb(161, 47, 47);
+}
+#select-price {
+  color: rgb(182, 23, 23);
+}
+.donate-option {
+  font-size: 26px;
+  color: #303235;
+  margin-top: 20px;
+}
+.donate hr {
+  color: #191414;
+  margin-top: 10px;
+}
+#dbtn {
+  margin-top: 30px;
+}
+.donate-plan {
+  padding: 136px 0;
+}
+.donate-plan-title {
+  font-size: 50px;
+  color: #251313;
+}
+.donate-plan-description {
+  font-size: 22px;
+  color: #554949;
+  margin-top: 20px;
+}
+/* icon section */
+.icon-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 30pxpx;
+}
+.icon-item-1st {
+  background-color: rgb(198 220 218);
+  padding: 84px 40px;
+  margin-right: 70px;
+}
+.icon-item-2nd {
+  background-color: rgb(206 181 216);
+  padding: 84px 40px;
+  margin-right: 70px;
+}
+.icon-item-3rd {
+  background-color: rgb(158 199 131);
+  padding: 84px 40px;
+  margin-right: 70px;
+}
+.icon-item img {
+}
+.icon-title {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 19px;
+}
+.icon-description {
+  font-size: 20px;
+}
+/* Feature section */
+.feature-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 233px;
+}
+.feature-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.feature-title {
+  font-size: 44px;
+  color: #0b0a0c;
+}
+.feature-description {
+  font-size: 21px;
+  color: #626060;
+  margin-top: 24px;
+  margin-bottom: 110px;
+}
+.feature-image {
+}
+#contribute-btn {
+  color: black;
+  padding: 23px 34px;
+}
+
+.feature-section img {
+  height: auto;
+  text-align: right;
+}
+.feature2.0 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 233px;
+}
+/* contact section */
+.contact-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 233px;
+  text-align: center;
+}
+.contact-title {
+  font-size: 43px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.contact-description {
+  font-size: 24px;
+  margin-bottom: 132px;
+  color: #483c3c;
+}
+.contact-form {
+  background-color: #d4edda;
+  display: inline-block;
+  padding: 101px 198px;
+  line-height: inherit;
+}
+.contact-form #email {
+  font-size: 20px;
+  padding: 13px 9px;
+  background-color: blanchedalmond;
+  border: 0;
+  border-radius: 8px;
+  color: black;
+}
+.contact-form #subscribe {
+  font-size: 20px;
+  padding: 13px 9px;
+  background-color: blanchedalmond;
+  border: 0;
+  border-radius: 8px;
+  background-color: #ff5959;
+}
+/* footer section */
+footer {
+  background-color: #0d0b0b;
+  text-align: center;
+  padding: 74px 0;
+  margin-top: 185px;
+}
+footer h3 {
+  color: #ff5959;
+  font-size: 39px;
+}
+footer p {
+  font-size: 14px;
+  margin-top: 12px;
+  color: white;
+}
